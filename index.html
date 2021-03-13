@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+			integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+			crossorigin="anonymous"
+		/>
+    <link rel="stylesheet" href="./css/style.css">
+		<title>Bootcamp Capsules</title>
+	</head>
+	<body>
+		<h1>Capsules Data</h1>
+		<div class="container">
+
+			<form id="search-bar">
+				<input type="text" name="search" class="input-search" placeholder="search student">
+				<select name="category" class="dropdown">
+          <option value="selectOpt">Select Category</option>
+          <option value="byFirst">First Name</option>
+          <option value="byLast">Last Name</option>
+          <option value="byCapsule">Capsule</option>
+          <option value="byAge">Age</option>
+          <option value="byCity">City</option>
+          <option value="byGender">Gender</option>
+          <option value="byHobby">Hobby</option>
+        </select>
+			</form>
+
+			<table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th class='sort'>First Name</th>
+            <th class='sort'>Last Name</th>
+            <th class='sort'>Capsule</th>
+            <th class='sort'>Age</th>
+            <th class='sort'>City</th>
+            <th class='sort'>Gender</th>
+            <th class='sort'>Hobby</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+    </div>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
